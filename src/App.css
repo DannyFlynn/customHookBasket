@@ -1,0 +1,36 @@
+* {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.links {
+  cursor: pointer;
+}
+
+.img-container {
+
+  height: 200px;
+}
+
+img {
+  width: 75%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+}
+
+.max-quantity-message {
+  color: red;
+}
+
+@media screen and (min-width: 1096px) and (max-width: 1600px) {
+  img {
+    width: 50%;
+  }
+}
